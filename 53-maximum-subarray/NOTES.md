@@ -1,6 +1,8 @@
 **Approach 1 - TC: O(n3) TLE**
 ​
 Run three loops, get all possible subarrays in two loops and their sum in another loop, then return the maximum of them.
+
+
 ​
 **Approach 2- TC: O(n2)**
 If we optimise the above approach, we can get sum of all possible subarrays in two loops only, then return the maximum so far.
@@ -21,6 +23,7 @@ return max_sum;
 }
 };
 ​
+  
 **Approach 3 Kadane Algorithm - TC: O(n)**
 ​
 Using this approach we can get the maximum sum of subarray in just O(n) time complexity.
