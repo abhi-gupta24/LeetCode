@@ -25,6 +25,9 @@ public:
                 end --;
             }
             
+            // if sum is over the limit,
+            // heaviest will go alone
+            
             else                                //  people[start] + people[end] > limit
             {   count ++ ;                      // then either people[start] or  people[end] will come in boat  
                 end --;
