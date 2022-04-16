@@ -1,0 +1,3 @@
+The only really tricky thing about counting in roman numerals is when a numeral is used as a subtractive value rather than an additive value. In "IV" for example, the value of "I", 1, is subtracted from the value of "V", 5. Otherwise, you're simply just adding the values of all the numerals.
+​
+The one thing we should realize about the subtractive numerals is that they're identifiable because they appear before a larger number. This means that the easier way to iterate through roman numerals is from right to left, to aid in the identifying process.
